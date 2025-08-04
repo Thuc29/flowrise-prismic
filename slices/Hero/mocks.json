@@ -1,0 +1,70 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Exercitation reprehenderit velit est do aliquip do. Labore exercitation sint laboris in ad do pariatur aliquip labore est proident adipisicing."
+						}
+					}
+				]
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"key": "801925bd-6611-4ea1-ad8f-9a9f486b070c",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com",
+					"text": "https://prismic.io"
+				}
+			},
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+					"width": 3168,
+					"height": 4752
+				},
+				"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+				"width": 3168,
+				"height": 4752,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "symbol",
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "improve"
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Productivity that flows with your life",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
