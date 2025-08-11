@@ -3,20 +3,9 @@
 		"__TYPE__": "SharedSliceContent",
 		"variation": "default",
 		"primary": {
-			"body": {
-				"__TYPE__": "StructuredTextContent",
-				"value": [
-					{
-						"type": "paragraph",
-						"content": {
-							"text": "Exercitation reprehenderit velit est do aliquip do. Labore exercitation sint laboris in ad do pariatur aliquip labore est proident adipisicing."
-						}
-					}
-				]
-			},
 			"button_link": {
-				"__TYPE__": "LinkContent",
 				"key": "801925bd-6611-4ea1-ad8f-9a9f486b070c",
+				"__TYPE__": "LinkContent",
 				"value": {
 					"__TYPE__": "ExternalLink",
 					"url": "http://google.com",
@@ -46,11 +35,6 @@
 				"__TYPE__": "ImageContent",
 				"thumbnails": {}
 			},
-			"button_text": {
-				"__TYPE__": "FieldContent",
-				"type": "Text",
-				"value": "improve"
-			},
 			"heading": {
 				"__TYPE__": "StructuredTextContent",
 				"value": [
@@ -58,6 +42,24 @@
 						"type": "heading1",
 						"content": {
 							"text": "Productivity that flows with your life",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Try for free"
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Unleash your potential bt harmonizing your daily tasks and habits with your unique energy rthythms.",
 							"spans": []
 						},
 						"direction": "ltr"
