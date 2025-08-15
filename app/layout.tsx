@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import { Nunito, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import clsx from "clsx";
-import { createClient } from "@/prismicio";
+import { createClient, repositoryName } from "@/prismicio";
 import Header from "../component/Header";
 import Footer from "../component/Footer";
+import { PrismicPreview } from "@prismicio/next";
 
 const nunito = Nunito({
   variable: "--font-nunito",
@@ -44,6 +45,9 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <div className="fixed bg-gradient-to-tr from-emerald-50 to-cyan-100 z-[-1] inset-0 opacity-50 pointer-events-none">
+          <PrismicPreview repositoryName={repositoryName} />
+        </div>
       </body>
     </html>
   );
